@@ -1,0 +1,102 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10rem;
+  font-family: 'PT Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(113, 106, 215, 0.591);
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2b2d42;
+  height: 100px;
+}
+
+/* #name #email #address #product #status {
+  border-radius: 10px;
+} */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 80px;
+}
+
+th,
+td {
+  /* border: 1px solid #ffffff; */
+  text-align: center;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: #2b2d42;
+  color: #dee2e6;
+}
+
+td {
+  background-color: white;
+  border-bottom: 1px solid #dee2e6;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 20px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* button {
+  background: rgb(125, 192, 209);
+  border-radius: 5px;
+  color: #2b2d42;
+  border: none;
+} */
+
+button {
+  background-color: rgba(122, 247, 220, 0.772);
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 0.3em;
+  /* margin: 0.3em 0; */
+  border: none;
+  padding: 0.2em 0.5em;
+}
+
+button:hover {
+  background-color: rgb(89, 238, 188);
+}
+
+.delete {
+  background-color: pink;
+}
+
+.delete:hover {
+  background-color: rgb(243, 159, 173);
+}
+
+.add {
+  margin-left: 20px;
+  padding: 0.2em 1em;
+  font-size: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "email": "john@example.com",
+    "address": "123 Main St",
+    "product": "Cat T-shirt",
+    "status": "Processing"
+  },
+  {
+    "id": 2,
+    "name": "Emily Johnson",
+    "email": "emily@gmail.com",
+    "address": "456 Elm St",
+    "product": "Coffee Mug",
+    "status": "Shipped"
+  },
+  {
+    "id": 3,
+    "name": "David Williams",
+    "email": "david@example.com",
+    "address": "789 Oak St",
+    "product": "Travel Backpack",
+    "status": "In Transit"
+  },
+  {
+    "id": 4,
+    "name": "Sophia Brown",
+    "email": "sophia@example.com",
+    "address": "101 Pine St",
+    "product": "Fancy Hat",
+    "status": "Delivered"
+  },
+  {
+    "id": 5,
+    "name": "Michael Davis",
+    "email": "michael@gmail.com",
+    "address": "210 Maple St",
+    "product": "Gaming Mouse",
+    "status": "Processing"
+  }
+]
